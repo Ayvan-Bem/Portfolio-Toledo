@@ -931,7 +931,12 @@ span {
         width: 100%;
         text-align: left;
     }
-
+.contact-right h2{
+    font-size: 30px;
+}
+    .contact-left h2{
+    font-size: 30px;
+}
     .contact-left {
         margin-bottom: 20px;
     }
