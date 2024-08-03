@@ -812,6 +812,7 @@ span {
 
 
     .who {
+        width: 70%;
         flex-direction: column;
         padding-bottom: 3rem;
     }
