@@ -85,3 +85,23 @@ document.getElementById('redirectButton').addEventListener('click', function () 
 document.getElementById('redirectButton2').addEventListener('click', function () {
     window.location.href = 'https://youtu.be/fFSY_3y3L6A'; // Replace with your desired URL
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const videoElements = document.querySelectorAll(".video-element");
+
+    const lazyLoadVideos = () => {
+        videoElements.forEach(video => {
+            const videoRect = video.getBoundingClientRect();
+            if (videoRect.top < window.innerHeight && videoRect.bottom > 0) {
+                if (video.getAttribute("data-src")) {
+                    const src = video.getAttribute("data-src");
+                    video.setAttribute("src", src);
+                    video.removeAttribute("data-src");
+                }
+            }
+        });
+    };
+
+    window.addEventListener("scroll", lazyLoadVideos);
+    lazyLoadVideos(); // Initial check
+});
