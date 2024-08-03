@@ -854,11 +854,11 @@ span {
     }
 
     .slider .list .item .content h2 {
-        font-size: 60px;
+        font-size: 35px;
     }
 
     .slider .list .item .content p {
-        font-size: 35px;
+        font-size: 12px;
         margin: 0;
     }
 
