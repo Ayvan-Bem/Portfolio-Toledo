@@ -825,7 +825,7 @@ span {
 
     .who .who-content h1 {
         text-align: left;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .who .who-content h3 {
@@ -927,7 +927,7 @@ span {
 
     .contact-left,
     .contact-right {
-        padding-left: 50px;
+        padding-left: 25px;
         width: 100%;
         text-align: left;
     }
@@ -938,7 +938,7 @@ span {
 
 
     .social-icons a {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
 
     }
 }
