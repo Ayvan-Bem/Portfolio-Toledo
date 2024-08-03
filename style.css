@@ -732,6 +732,7 @@ span {
 
     }
 }
+
 @media screen and (max-width: 450px) {
     .links-container {
         flex-direction: column;
@@ -741,7 +742,8 @@ span {
         top: 0;
         right: -100%;
         z-index: 10;
-        width: 337.5px; /* Adjusted proportionally from 300px */
+        width: 337.5px;
+        /* Adjusted proportionally from 300px */
 
         background-color: var(--navside);
         transition: 0.75s ease-out;
@@ -749,18 +751,23 @@ span {
 
     nav a {
         border: none;
-        width: 337.5px; /* Adjusted proportionally from 300px */
-        height: 337.5px; /* Adjusted proportionally from 300px */
+        width: 337.5px;
+        /* Adjusted proportionally from 300px */
+        height: 337.5px;
+        /* Adjusted proportionally from 300px */
         box-sizing: border-box;
         height: auto;
         width: 100%;
-        padding: 22.5px 33.75px; /* Adjusted proportionally from 20px 30px */
+        padding: 22.5px 33.75px;
+        /* Adjusted proportionally from 20px 30px */
         justify-content: flex-start;
     }
 
     nav a:hover {
-        width: 337.5px; /* Adjusted proportionally from 300px */
-        height: 337.5px; /* Adjusted proportionally from 300px */
+        width: 337.5px;
+        /* Adjusted proportionally from 300px */
+        height: 337.5px;
+        /* Adjusted proportionally from 300px */
         background-color: var(--fontColor3);
         border: none;
         width: auto;
@@ -776,12 +783,14 @@ span {
     .button-container {
         margin-top: auto;
         align-self: flex-end;
-        padding: 22.5px; /* Adjusted proportionally from 20px */
+        padding: 22.5px;
+        /* Adjusted proportionally from 20px */
     }
 
     .open-sidebar-button,
     .close-sidebar-button {
-        padding: 22.5px; /* Adjusted proportionally from 20px */
+        padding: 22.5px;
+        /* Adjusted proportionally from 20px */
         display: block;
     }
 
@@ -901,18 +910,23 @@ span {
     }
 
     .contact-inputs {
-        width: 337.5px; /* Adjusted proportionally from 270px */
-        height: 62.5px; /* Adjusted proportionally from 50px */
+        width: 337.5px;
+        /* Adjusted proportionally from 270px */
+        height: 62.5px;
+        /* Adjusted proportionally from 50px */
     }
 
     .contact-left textarea {
-        width: 337.5px; /* Adjusted proportionally from 270px */
-        height: 175px; /* Adjusted proportionally from 140px */
+        width: 337.5px;
+        /* Adjusted proportionally from 270px */
+        height: 175px;
+        /* Adjusted proportionally from 140px */
     }
 
     .contact-left,
     .contact-right {
-        padding-left: 56.25px; /* Adjusted proportionally from 50px */
+        padding-left: 56.25px;
+        /* Adjusted proportionally from 50px */
         width: 100%;
         text-align: left;
     }
@@ -928,7 +942,8 @@ span {
     }
 
     .contact-left {
-        margin-bottom: 22.5px; /* Adjusted proportionally from 20px */
+        margin-bottom: 22.5px;
+        /* Adjusted proportionally from 20px */
     }
 
     .social-icons a {
