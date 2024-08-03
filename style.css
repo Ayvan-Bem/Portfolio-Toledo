@@ -742,7 +742,7 @@ span {
         top: 0;
         right: -100%;
         z-index: 10;
-        width: 500px;
+        width: 300px;
 
         background-color: var(--navside);
         transition: 0.75s ease-out;
