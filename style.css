@@ -856,6 +856,10 @@ span {
     .slider .list .item .content h2 {
         font-size: 60px;
     }
+    .slider .list .item .content h2 {
+    font-size: 35px;
+    margin: 0;
+}
 
     .arrows {
         top: 10%;
@@ -932,9 +936,13 @@ span {
         text-align: left;
     }
 .contact-right h2{
+    
+    font-weight: 300;
     font-size: 30px;
 }
-    .contact-left h2{
+    .contact-left-title h2{
+        
+    font-weight: 300;
     font-size: 30px;
 }
     .contact-left {
