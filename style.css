@@ -732,6 +732,244 @@ span {
 
     }
 }
+@media screen and (max-width: 450px) {
+    .links-container {
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 300px;
+
+        background-color: var(--navside);
+        transition: 0.75s ease-out;
+    }
+
+    nav a {
+
+        border: none;
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+
+    }
+
+    nav a:hover {
+        width: 300px;
+        height: 300px;
+        background-color: var(--fontColor3);
+        border: none;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        color: #eee;
+    }
+
+    /* nav a {
+        border: none;
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+
+    } */
+
+    .btn {
+        border-radius: 4rem;
+    }
+
+    .button-container {
+        margin-top: auto;
+        /* Pushes the button to the bottom */
+        align-self: flex-end;
+        /* Aligns the button to the right */
+        padding: 20px;
+        /* Optional: Add padding for spacing */
+    }
+
+
+
+    .open-sidebar-button,
+    .close-sidebar-button {
+        padding: 20px;
+        display: block;
+    }
+
+    #sidebar-active:checked~.links-container {
+        right: 0;
+    }
+
+
+
+    .who {
+        width: 70%;
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .who-img img {
+        align-items: center;
+        width: 75vw;
+        margin-top: 0.1rem;
+    }
+
+    .who .who-content h1 {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .who .who-content h3 {
+        text-align: left;
+        font-size: 1.4rem;
+    }
+
+    .who .who-content p {
+        text-align: left;
+        font-size: 0.75rem;
+
+
+    }
+
+    .box {
+        width: 80%;
+        height: 100vh;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .thumbnail {
+        justify-content: start;
+    }
+
+    .slider .list .item .content h2 {
+        font-size: 35px;
+    }
+
+    .slider .list .item .content p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .arrows {
+        top: 10%;
+    }
+
+    .video-container {
+        width: 90%;
+        max-width: 800px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+
+        border-radius: 15px;
+    }
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%;
+        /* 16:9 aspect ratio */
+        border-radius: 15px;
+        overflow: hidden;
+
+    }
+
+    .video-element {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+
+
+    }
+
+    .video-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%;
+        background-color: var(--hovercolor);
+    }
+
+
+    .video-info h2 {
+        font-size: 1.5rem;
+        color: var(--hoverfont);
+        margin: 5px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .video-info p {
+        font-size: 0.7rem;
+        text-align: center;
+        color: var(--hoverfont);
+        margin: 5px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-inputs {
+        width: 270px;
+        height: 50px;
+    }
+
+    .contact-left textarea {
+        width: 270px;
+        height: 140px;
+
+    }
+
+
+    .contact-left,
+    .contact-right {
+        padding-left: 50px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .contact-right h2 {
+
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .contact-left-title h2 {
+
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .contact-left {
+        margin-bottom: 20px;
+    }
+
+
+    .social-icons a {
+        font-size: 1.5rem;
+
+    }
+}
 
 @media screen and (max-width: 400px) {
     .links-container {
