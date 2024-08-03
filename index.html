@@ -246,12 +246,13 @@
             </div>
         </div>
     </section>
+
     <section id="video">
         <div id="redirectButton" class="center-container">
             <div class="video-container">
                 <div class="video-wrapper">
-                    <video class="video-element" data-src="/assets/COMPLI_copy.MP4" controls preload="none" muted
-                        playsinline>
+                    <video class="video-element" autoplay loop muted playsinline>
+                        <source src="/assets/COMPLI_copy.MP4" type="video/mp4">
                     </video>
                     <div class="video-info">
                         <h2>Event Compilation Video</h2>
@@ -265,7 +266,8 @@
         <div id="redirectButton2" class="center-container">
             <div class="video-container">
                 <div class="video-wrapper">
-                    <video class="video-element" data-src="/assets/TCOE.MP4" controls preload="none" muted playsinline>
+                    <video class="video-element" autoplay loop muted playsinline>
+                        <source src="/assets/TCOE.MP4" type="video/mp4">
                     </video>
                     <div class="video-info">
                         <h2>TAMSCOE Welcoming Video</h2>
@@ -277,7 +279,6 @@
             </div>
         </div>
     </section>
-
     <section id="contacts">
         <div class="contact-container">
             <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
