@@ -588,7 +588,7 @@ span {
 }
 
 .video-info p {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     color: var(--hoverfont);
     margin: 5px 0;
