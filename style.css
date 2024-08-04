@@ -580,7 +580,7 @@ span {
 
 
 .video-info h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--hoverfont);
     margin: 5px 0;
     opacity: 0;
@@ -588,7 +588,7 @@ span {
 }
 
 .video-info p {
-    font-size: 0.5rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--hoverfont);
     margin: 5px 0;
@@ -888,7 +888,7 @@ span {
     }
 
     .video-info h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: var(--hoverfont);
         margin: 5px 0;
         opacity: 0;
@@ -896,7 +896,7 @@ span {
     }
 
     .video-info p {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         text-align: center;
         color: var(--hoverfont);
         margin: 5px 0;
@@ -1127,7 +1127,7 @@ span {
 
 
     .video-info h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: var(--hoverfont);
         margin: 5px 0;
         opacity: 0;
@@ -1135,7 +1135,7 @@ span {
     }
 
     .video-info p {
-        font-size: 0.7rem;
+        font-size: .5rem;
         text-align: center;
         color: var(--hoverfont);
         margin: 5px 0;
